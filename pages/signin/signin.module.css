@@ -1,0 +1,39 @@
+.signinContainer{
+    background: rgb(217,37,80);
+    background: linear-gradient(309deg, rgba(217,37,80,1) 0%, rgba(63,106,216,1) 80%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.signinMainDiv{
+    width: 40%;
+    /* height: 50%; */
+    background-color: whitesmoke;
+    padding: 1rem;
+    padding-bottom: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+.signinLogo{
+    mix-blend-mode:multiply;
+    width: 300px;
+}
+.signinHeading{
+    text-align: center;
+}
+
+.signinFooter{
+    display: flex;
+    justify-content: right;
+   
+}
+
+@media (max-width: 700px){
+    .signinMainDiv{
+        width: 80%;
+    }
+}
